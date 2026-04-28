@@ -12,3 +12,5 @@ not correctly recognized when the LSP is started from a subdirectory.
 If you open this project and try to use "Go to Definition" on `Foo` in
 `lib/bar.rb`, it will open a non-existent `foo.rb` instead of `lib/foo.rb`, and
 VS Code will complain that the file does not exist.
+
+You may need to adjust how the Ruby environment is set up in `bin/sorbet-lsp`.
