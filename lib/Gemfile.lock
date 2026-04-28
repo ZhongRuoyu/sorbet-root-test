@@ -1,0 +1,19 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    sorbet (0.6.13169)
+      sorbet-static (= 0.6.13169)
+    sorbet-static (0.6.13169-universal-darwin)
+
+PLATFORMS
+  arm64-darwin-25
+
+DEPENDENCIES
+  sorbet
+
+CHECKSUMS
+  sorbet (0.6.13169) sha256=e42631f0e9bc54a7641e39d199e444272b19c9ac6245692e06b43132910ef90b
+  sorbet-static (0.6.13169-universal-darwin) sha256=2f59f0a7009d808ed1c6fb68e3ead21b78d482f05db3cad1b071f8868e1b14ec
+
+BUNDLED WITH
+  4.0.6

@@ -1,0 +1,14 @@
+{
+  "sorbet.enabled": true,
+  "sorbet.lspConfigs": [
+    {
+      "id": "default",
+      "name": "Default",
+      "description": "Default configuration",
+      "command": [
+        "./bin/sorbet-lsp",
+      ]
+    }
+  ],
+  "sorbet.selectedLspConfigId": "default",
+}
